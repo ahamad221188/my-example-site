@@ -1,0 +1,171 @@
+html {
+    background-color: #9bf542;
+    font-family: 'Courier New', Courier, monospace;
+    background: url(../images/squad.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: darkblue;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 300%;
+    border:3px solid black;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+p {
+    color: black;
+    text-align: center;
+}
+
+article p span {
+    color: darkblue;
+    text-align: center;
+}
+
+.anthem  a {
+    text-decoration: none;
+    color:darkred;
+}
+
+img {
+    max-width: 15%;
+    height: auto;
+    float: right;
+    padding-right: 80px;
+}
+
+/* banner overlay */
+
+.image-drogba img {
+    position : relative;
+    max-width: 28%;
+    height: auto;
+    float: left;
+    display: block;
+    left: 22px;
+    bottom: 5px;
+}
+
+.banner-desc1 {
+    position : absolute;
+    bottom : 20px;
+    left: 35px;
+    font-size: 150%;
+    background-color: rgba(0,0,0,.3);
+}
+
+.image-hazard img {
+    position : relative;
+    max-width: 25%;
+    height: auto;
+    float: right;
+    display: block;
+    bottom: 5px;
+    left: 56px;
+}
+
+.banner-desc2 {
+    position : absolute;
+    bottom : 7px;
+    right: 36px;
+    font-size: 125%;
+    background-color: rgba(0,0,0,.3);
+}
+
+/* end banner overlay */
+
+.banner-desc1 p {
+    color: white;
+}
+.banner-desc2 p {
+    color: white;
+}
+
+.highlight {
+    background-color: lightblue;
+}
+
+.namefield {
+    padding: 20px 20px;
+}
+
+.supporter {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.story {
+    padding: 20px 20px;
+}
+
+.players {
+    padding: 20px 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+/* site navigation */
+
+.site-nav ul {
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.site-nav li {
+    list-style: none;
+    float:left;
+    margin-right: 5px;
+}
+
+.site-nav a { 
+    color: darkmagenta;
+    text-decoration: none;
+    padding: 20px 20px 20px 0px;
+}
+
+.site-nav a:hover {
+    background-color: blue;
+}
+
+/* End site navigation */
+
+/* Form styles */
+input[type="text"]:hover,
+input[type="text"]:focus,
+select {
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+input[type="text"] {
+    width: 75%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 1px solid black
+}
+
+input[type="submit"] {
+    width: 10%;
+    box-sizing: border-box;
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 5px 0px;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    border: 1px solid black;
+    background-color: darkblue;
+}
+/* End Form styles */
+
